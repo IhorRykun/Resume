@@ -80,6 +80,11 @@ body {
   margin-left: 10px;
   text-decoration: none;
 }
+.project-link:hover,
+.project-link:focus{
+    color:#0016de
+}
+
 .project-br {
   font-style: normal;
   font-weight: 700;
@@ -98,7 +103,7 @@ body {
 .years {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
   color: #a8a8a8;
 }
