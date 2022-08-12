@@ -56,14 +56,14 @@ body {
   padding: 0;
   margin-left: 15px;
 }
-.Projects-item {
+.projects-item {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
   color: #000000;
 }
-.Projects {
+.projects {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -122,14 +122,12 @@ body {
   line-height: 20px;
   color: #000000;
 }
-.Company-3 {
-  margin-top: 20px;
-}
+
 .work-list {
   padding: 0%;
   margin-left: 15px;
 }
-.Saidebar {
+.saidebar {
   background-color: #1e2939;
   padding-top: 40px;
   width: 370px;
@@ -138,7 +136,7 @@ body {
   width: 354px;
   margin-bottom: 51px;
 }
-.Saidebar-title {
+.saidebar-title {
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
@@ -177,6 +175,7 @@ body {
   color: #ffffff;
   padding: 0;
 }
+
 .soft-Skills {
   color: #ffffff;
   left: 80px;
@@ -204,10 +203,10 @@ body {
 .soft-skill-list {
   padding: 0;
 }
-.Education {
+.education {
   margin-top: 43px;
 }
-.Management {
+.management {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
