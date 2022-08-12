@@ -37,7 +37,6 @@ body {
   margin-bottom: 25px;
 }
 .abaut-decription {
-
   height: 120px;
   left: 498px;
   top: 252px;
@@ -52,10 +51,12 @@ body {
   color: #000000;
   margin-bottom: 10px;
 }
+
 .projects-list {
   padding: 0;
   margin-left: 15px;
 }
+
 .projects-item {
   font-style: normal;
   font-weight: 700;
@@ -63,6 +64,7 @@ body {
   line-height: 24px;
   color: #000000;
 }
+
 .projects {
   font-style: normal;
   font-weight: 400;
@@ -80,6 +82,7 @@ body {
   margin-left: 10px;
   text-decoration: none;
 }
+
 .project-link:hover,
 .project-link:focus{
     color:#0016de;
@@ -92,6 +95,7 @@ body {
   line-height: 24px;
   color: #000000;
 }
+
 .work {
   margin-top: 50px;
   font-style: normal;
@@ -100,6 +104,7 @@ body {
   line-height: 24px;
   color: #595959;
 }
+
 .years {
   font-style: normal;
   font-weight: 400;
@@ -107,6 +112,7 @@ body {
   line-height: 15px;
   color: #a8a8a8;
 }
+
 .slesh {
   font-style: normal;
   font-weight: 400;
@@ -114,6 +120,7 @@ body {
   line-height: 15px;
   color: #000000;
 }
+
 .position {
   font-style: normal;
   font-weight: 700;
@@ -121,6 +128,7 @@ body {
   line-height: 20px;
   color: #fb6d3a;
 }
+
 .work-profesion {
   font-style: normal;
   font-weight: 700;
@@ -133,15 +141,18 @@ body {
   padding: 0%;
   margin-left: 15px;
 }
+
 .saidebar {
   background-color: #1e2939;
   padding-top: 40px;
   width: 370px;
 }
+
 .photo {
   width: 354px;
   margin-bottom: 51px;
 }
+
 .saidebar-title {
   color: #ffffff;
   font-style: normal;
@@ -164,6 +175,7 @@ body {
   color: #ffffff;
   margin-right: 10px;
 }
+
 .contact-link {
   font-style: normal;
   font-weight: 400;
@@ -177,6 +189,7 @@ body {
 .contact-link:focus{
     color:#0016de;
 }
+
 .tech-skill-list {
   left: 80px;
   top: 154px;
@@ -187,7 +200,7 @@ body {
   padding: 0;
 }
 
-.soft-Skills {
+.soft-skills {
   color: #ffffff;
   left: 80px;
   top: 154px;
@@ -199,11 +212,13 @@ body {
   top: 154px;
   margin-top: 45px;
 }
+
 .tech-skills-item {
   color: #fb6d3a;
   padding: 0;
   margin-left: 20px;
 }
+
 .tech-skill-text {
   color: #ffffff;
   font-style: normal;
@@ -211,11 +226,13 @@ body {
   font-size: 14px;
   line-height: 24px;
 }
+
 .soft-skill-list {
   padding: 0;
 }
+
 .education {
-  margin-top: 43px;
+  margin-top: 30px;
 }
 .management {
   font-style: normal;
