@@ -80,11 +80,13 @@ body {
   color: #595959;
   margin-left: 10px;
   text-decoration: none;
+  display: inline-block;
 }
 
 .project-link:hover,
 .project-link:focus {
-  color: #0016de;
+  color: #fb6d3a;
+  transform: scale(1.1);
 }
 
 .project-br {
@@ -246,20 +248,22 @@ body {
 .svg {
   fill: white;
   margin-right: 10px;
+  display: block;
 }
+
 .contacts__text {
   display: flex;
   align-items: center;
 }
+
 .contacts__link {
-  margin-left: 10px;
+  margin-left: 15px;
   text-decoration: none;
   color: white;
 }
 
 .contacts__link:hover,
 .contacts__link:focus {
-  color: red;
+  color: #fb6d3a;
   transform: scale(1.1);
-  display: block;
 }
