@@ -96,7 +96,8 @@ body {
 }
 
 .projects-item__link--name:hover,
-.projects-item__link--name:focus {
+.projects-item__link--name:focus,
+.projects-item__link--name:active {
   transform: scale(1.1);
   color: #fb6d3a;
 }
