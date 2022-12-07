@@ -88,6 +88,11 @@ body {
   color: #fb6d3a;
   transform: scale(1.1);
 }
+.projects-item__link--name {
+  text-decoration: none;
+  font-family: inherit;
+  color:#1e2939
+}
 
 .project-br {
   font-style: normal;
@@ -260,8 +265,6 @@ body {
   align-items: center;
   color: white;
 }
-
-
 
 .contacts__link {
   margin-left: 15px;
