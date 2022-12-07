@@ -246,9 +246,18 @@ body {
 .svg {
   fill: white;
   margin-right: 10px;
-
 }
 .contacts__text {
   display: flex;
   align-items: center;
+}
+.contacts__link {
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.contacts__link:hover,
+.contacts__link:focus {
+    color:red;
 }
