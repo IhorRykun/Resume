@@ -251,9 +251,14 @@ body {
   display: block;
 }
 
+.svg--margin {
+  margin-left: 15px;
+}
+
 .contacts__text {
   display: flex;
   align-items: center;
+  color: white;
 }
 
 .contacts__link {
