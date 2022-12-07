@@ -259,5 +259,7 @@ body {
 
 .contacts__link:hover,
 .contacts__link:focus {
-    color:red;
+  color: red;
+  transform: scale(1.1);
+  display: block;
 }
