@@ -91,7 +91,14 @@ body {
 .projects-item__link--name {
   text-decoration: none;
   font-family: inherit;
-  color:#1e2939
+  color: #000000;
+  display: inline-block;
+}
+
+.projects-item__link--name:hover,
+.projects-item__link--name:focus {
+  transform: scale(1.1);
+  color: #fb6d3a;
 }
 
 .project-br {
