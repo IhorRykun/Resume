@@ -83,6 +83,7 @@ body {
   margin-left: 10px;
   text-decoration: none;
   display: inline-block;
+  margin-bottom: 2px;
 }
 
 .project-link:hover,
@@ -95,11 +96,12 @@ body {
   font-family: inherit;
   color: white;
   display: inline-flex;
-  background-color: #1e2939;
+  background-color: #000000;
   padding: 2px 0;
   height: 20px;
   width: 125px;
   justify-content: center;
+  align-items: center;
 }
 
 .projects-item__link--name:hover,
@@ -132,6 +134,7 @@ body {
   font-size: 14px;
   line-height: 15px;
   color: #a8a8a8;
+  display: flex;
 }
 
 .slesh {
@@ -140,6 +143,7 @@ body {
   font-size: 12px;
   line-height: 15px;
   color: #000000;
+  margin: 0 2px;
 }
 
 .position {
@@ -157,7 +161,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #000000;
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .work-list {
@@ -166,17 +170,17 @@ body {
 }
 
 .saidebar {
-  background-color: #1e2939;
-  padding-top: 40px;
+  background-color: #000000;
   width: 370px;
-  border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
   display: block;
 }
 
 .photo {
   width: 354px;
   margin-bottom: 51px;
+  border-top-left-radius: 25px;
 }
 
 .saidebar-title {
@@ -276,8 +280,15 @@ body {
   display: block;
 }
 
-.svg--margin {
+.text--margin {
   margin-left: 15px;
+  cursor: pointer;
+}
+
+.text--margin:hover,
+.text--margin:focus {
+  transform: scale(1.1);
+  color: #fb6d3a;
 }
 
 .contacts__text {
@@ -295,5 +306,23 @@ body {
 .contacts__link:hover,
 .contacts__link:focus {
   color: #fb6d3a;
+  transform: scale(1.1);
+}
+
+.code__part {
+  color: white;
+  background-color: #fb6d3a;
+  height: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  padding: 2px 0;
+  margin-bottom: 2px;
+}
+
+.code__part:hover,
+.code__part:focus {
+  background-color: #000000;
   transform: scale(1.1);
 }
