@@ -177,3 +177,16 @@ span {
 .span__langues {
   margin-left: 4px;
 }
+/* .project__item {
+  display: flex;
+  align-items: center;
+} */
+.Project__link {
+  text-decoration: none;
+  color: inherit;
+}
+.Project__github {
+  display: block;
+  cursor: pointer;
+
+}
