@@ -123,7 +123,12 @@ p {
   color: white;
   margin-left: 8px;
 }
-
+.contact__item {
+  margin-top: 8px;
+}
+.contact__item:first-child {
+  margin-top: 0;
+}
 .soft_skills__list {
   list-style: inside;
 }
@@ -180,10 +185,9 @@ p {
 .span__langues {
   margin-left: 4px;
 }
-/* .project__item {
-  display: flex;
-  align-items: center;
-} */
+.project__item {
+  font-size: 36px;
+}
 .Project__link {
   text-decoration: none;
   color: inherit;
@@ -195,4 +199,12 @@ p {
 
 .project__text--ebout {
   width: 600px;
+}
+
+.pojects__list {
+  list-style: outside;
+}
+
+.text__decoration__projects {
+  font-size: 16px;
 }
