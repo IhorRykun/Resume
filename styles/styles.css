@@ -46,6 +46,10 @@ span {
   background-color: #d9d9d9;
   width: 850px;
   position: relative;
+  padding-top: 510px;
+  padding-bottom: 150px;
+  padding-left: 64px;
+  color: #470001;
 }
 
 .about__block {
@@ -79,7 +83,7 @@ span {
 .title__ebout--text::after {
   content: "";
   display: block;
-  width: 400px;
+  width: 360px;
   height: 2px;
   background-color: #fff;
   margin-top: 10px;
@@ -110,4 +114,23 @@ span {
   text-decoration: none;
   color: white;
   margin-left: 8px;
+}
+
+.soft_skills__list {
+  list-style: inside;
+}
+.Tech_Skills___list {
+  list-style: inside;
+}
+
+.Languages__list {
+  list-style: inside;
+}
+.section___experiance__title::after {
+  content: "";
+  width: 600px;
+  height: 2px;
+  background-color: #000000;
+  display: block;
+  margin-top: 10px;
 }
