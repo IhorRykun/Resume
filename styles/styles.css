@@ -134,3 +134,20 @@ span {
   display: block;
   margin-top: 10px;
 }
+
+.section___education__title::after {
+  content: "";
+  width: 600px;
+  height: 2px;
+  background-color: #000000;
+  display: block;
+  margin-top: 10px;
+}
+
+.Languages__item {
+  display: flex;
+  align-items: center;
+}
+.Languages__img {
+  margin-left: 40px;
+}
