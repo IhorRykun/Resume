@@ -10,6 +10,9 @@ span {
   margin: 0;
   padding: 0;
 }
+p {
+  margin: 0;
+}
 .main {
   width: 1200px;
   display: flex;
@@ -188,5 +191,8 @@ span {
 .Project__github {
   display: block;
   cursor: pointer;
+}
 
+.project__text--ebout {
+  width: 600px;
 }
