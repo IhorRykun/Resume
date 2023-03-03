@@ -152,6 +152,7 @@ span {
 .Languages__item {
   display: flex;
   align-items: center;
+  margin-top: 8px;
 }
 .Languages__img {
   margin-left: 40px;
@@ -167,5 +168,12 @@ span {
 }
 
 .langues__list__img {
- 
+  margin-left: 10px;
+}
+.langues__item__img {
+  margin-top: 8px;
+}
+
+.span__langues {
+  margin-left: 4px;
 }
