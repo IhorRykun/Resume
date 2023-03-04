@@ -166,6 +166,13 @@ p {
   margin-left: 40px;
 }
 
+.section___Projects__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+}
+
 .section___Projects__title::after {
   content: "";
   width: 600px;
@@ -186,7 +193,8 @@ p {
   margin-left: 4px;
 }
 .project__item {
-  font-size: 36px;
+  margin-top: 8px;
+  width: 630px;
 }
 .Project__link {
   text-decoration: none;
@@ -198,13 +206,20 @@ p {
 }
 
 .project__text--ebout {
+  display: inline-block;
   width: 600px;
 }
 
-.pojects__list {
-  list-style: outside;
+.span__text__project {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 27px;
+
 }
 
-.text__decoration__projects {
+.text__project__web {
+  font-weight: 500;
   font-size: 16px;
+  line-height:168.75%; /* 27/16 */
 }
