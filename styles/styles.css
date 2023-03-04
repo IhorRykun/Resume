@@ -41,7 +41,7 @@ h4 {
   width: 550px;
   background-color: #000000;
   color: #fff;
-  padding-top: 430px;
+  padding-top: 390px;
   padding-bottom: 150px;
 }
 
@@ -61,12 +61,13 @@ h4 {
 
 .block__flex__langues {
   display: flex;
+  align-items: center;
 }
 .section___experiance {
   background-color: #d9d9d9;
   width: 850px;
   position: relative;
-  padding-top: 430px;
+  padding-top: 390px;
   padding-bottom: 150px;
   padding-left: 64px;
   color: #470001;
@@ -78,7 +79,7 @@ h4 {
   margin: 0 auto;
   background-color: #737373;
   color: #fff;
-  padding: 84px 0;
+  padding: 64px 0;
   padding-left: 66px;
   display: flex;
   position: absolute;
@@ -91,8 +92,8 @@ h4 {
 }
 
 .img__photo {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   display: block;
   border-radius: 50%;
   border: 10px solid black;
@@ -211,15 +212,15 @@ h4 {
 }
 
 .langues__list__img {
-  margin-left: 10px;
+  margin-left: 6px;
 }
 
 .langues__item__img {
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .span__langues {
-  margin-left: 4px;
+  margin-left: 12px;
 }
 .project__item {
   font-family: "Roboto", sans-serif;
