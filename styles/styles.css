@@ -1,5 +1,5 @@
 body {
-  font-family: "Shantell Sans", cursive;
+  font-family: "Roboto", sans-serif;
 }
 ul {
   margin: 0;
@@ -139,6 +139,13 @@ p {
 .Languages__list {
   list-style: inside;
 }
+.section___experiance__title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 112.5%;
+}
+
 .section___experiance__title::after {
   content: "";
   width: 600px;
@@ -146,6 +153,13 @@ p {
   background-color: #000000;
   display: block;
   margin-top: 10px;
+}
+
+.section___education__title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 112.5%;
 }
 
 .section___education__title::after {
@@ -168,9 +182,9 @@ p {
 
 .section___Projects__title {
   font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 27px;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 112.5%; /* 27/24 */
 }
 
 .section___Projects__title::after {
@@ -212,22 +226,22 @@ p {
 
 .span__text__project {
   font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: 800;
+  font-size: 17px;
   line-height: 27px;
 }
 
 .text__project__web {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 168.75%; /* 27/16 */
 }
 
 .title__ebout--text {
   font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 27px;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 112.5%;
 }
 
 .work-profesion {
