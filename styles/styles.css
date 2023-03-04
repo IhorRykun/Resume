@@ -213,14 +213,20 @@ h4 {
 
 .langues__list__img {
   margin-left: 6px;
+  margin-top: 7px;
 }
 
 .langues__item__img {
-  margin-top: 10px;
+  margin-top: 7px;
 }
 
-.span__langues {
+.list__langues {
   margin-left: 12px;
+  margin-top: 16px;
+}
+
+.item_langues {
+  margin-bottom: 7px;
 }
 .project__item {
   font-family: "Roboto", sans-serif;
