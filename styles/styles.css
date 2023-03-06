@@ -26,6 +26,10 @@ h5 {
 h4 {
   margin: 4px 0;
 }
+
+h3 {
+  margin: 4px;
+}
 .main {
   width: 1200px;
   display: flex;
