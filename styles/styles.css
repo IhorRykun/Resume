@@ -27,9 +27,6 @@ h4 {
   margin: 4px 0;
 }
 
-h3 {
-  margin: 4px;
-}
 .main {
   width: 1200px;
   display: flex;
@@ -45,8 +42,8 @@ h3 {
   width: 550px;
   background-color: #000000;
   color: #fff;
-  padding-top: 380px;
-  padding-bottom: 40px;
+  padding-top: 356px;
+  padding-bottom: 20px;
 }
 
 .contacts__block {
@@ -71,8 +68,8 @@ h3 {
   background-color: #d9d9d9;
   width: 850px;
   position: relative;
-  padding-top: 380px;
-  padding-bottom: 40px;
+  padding-top: 356px;
+  padding-bottom: 20px;
   padding-left: 64px;
   color: #470001;
   padding-right: 8px;
@@ -88,7 +85,7 @@ h3 {
   display: flex;
   position: absolute;
   z-index: 100;
-  top: 52px;
+  top: 44px;
 }
 
 .block__img {
