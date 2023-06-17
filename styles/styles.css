@@ -76,6 +76,9 @@ h4 {
 }
 
 .about__block {
+  @media screen and (max-width: 767px) {
+    padding: 42px 0;
+  }
   width: 1134px;
   margin: 0 auto;
   background-color: #737373;
@@ -93,6 +96,12 @@ h4 {
 }
 
 .img__photo {
+  @media screen and (max-width: 767px) {
+    width: 270px;
+    height: 270px;
+    top: -56px;
+    left: -20px;
+  }
   width: 350px;
   height: 350px;
   display: block;
