@@ -260,8 +260,9 @@ h4 {
 .Project__link:hover,
 .project__link:focus {
   color: #fff;
-  box-shadow: 1px -1px 9px 8px rgba(102, 102, 102, 0.11);
+  text-shadow: 6px -3px 4px #787878;
   outline: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .Project__github {
   display: block;
@@ -322,4 +323,5 @@ h4 {
 .contact__item:hover .contacts__svg,
 .contact__item:focus .contacts__svg {
   transform: scale(1.25);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
