@@ -257,6 +257,12 @@ h4 {
   text-decoration: none;
   color: inherit;
 }
+.Project__link:hover,
+.project__link:focus {
+  color: #fff;
+  box-shadow: 1px -1px 9px 8px rgba(102, 102, 102, 0.11);
+  outline: none;
+}
 .Project__github {
   display: block;
   cursor: pointer;
