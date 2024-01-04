@@ -106,8 +106,8 @@ h4 {
     top: -58px;
     left: 10px;
   }
-  width: 360px;
-  height: 360px;
+  width: 330px;
+  height: 330px;
   display: block;
   border-radius: 50%;
   border: 10px solid black;
@@ -332,5 +332,5 @@ h4 {
   font-weight: 900;
   font-size: 16px;
   line-height: 24px;
-  color:rgb(71, 0, 1);
+  color: rgb(71, 0, 1);
 }
